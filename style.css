@@ -1,0 +1,41 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.wrapper-icon{
+    width: 25%;
+    padding: 6px;
+}
+.fhoto{
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+}
+.wrapper{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+height: 200vh;
+align-content:start;
+background-color: antiquewhite;
+
+}
+.style-a{
+    color: white;
+    background-color: rgb(41, 38, 38);
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-flex;
+    margin: 20px;
+    padding: 20px 0;
+    transition: 0.4s;
+    justify-content: center;
+    fill: blue;
+}
+.style-a:hover{
+    background-color: rgb(107, 105, 105);
+    color: rgb(78, 48, 48);
+}
